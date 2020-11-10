@@ -10,7 +10,7 @@ intents = discord.Intents(messages=True, guilds=True, members=True)
 # Imports the needed libs.
 
 client = commands.Bot(command_prefix='$', intents=intents)
-# sets prefix and intents
+# Sets prefix and intents
 
 client.remove_command("help")
 
