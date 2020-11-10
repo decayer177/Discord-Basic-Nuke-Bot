@@ -30,7 +30,7 @@ This bot is against Discord Term's of Service. I am not responsible if you, or y
 
 4. Open bot.py file in any editor you choose. I prefer Visual Studio Code
 
-5. Insert your bot's token at the very bottom where it says "TOKEN"
+5. Insert your bot's token at the very bottom where it says "TOKEN" 
 
 6. Run the file by opening a Command Prompt in the same directory as the file and typing "py bot.py"
 
